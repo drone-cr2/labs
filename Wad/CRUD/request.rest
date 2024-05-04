@@ -1,0 +1,26 @@
+
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "name" : "drone",
+    "add" : "banglore"
+}
+
+###
+
+PUT http://localhost:3000/drone
+Content-Type: application/json
+
+{
+    "name" : "drone",
+    "add" : "chonchwad"
+}
+
+###
+
+DELETE http://localhost:3000/drone
