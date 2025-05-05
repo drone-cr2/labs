@@ -1,0 +1,8 @@
+create 4 files
+    ServerInterface.java (interface) - extends 'Remote', all methods must throw RemoteException
+
+    ServerImpliment.java (class) - extends UnicastRemoteObject - impliments ServerInterface with all methods and constructor
+
+    Server.java (skeleton class) - try-catch, LocateRegistry.createRegistry() and  Naming.rebind("nameURL", )
+
+    Client.java (stub class) - try-catch, Naming.lookup("rmi://localhost/nameURL") and typecast it 
